@@ -23,7 +23,6 @@ p = zeros(size(X, 1), 1);
 
 
 X = [ones(m, 1) X];
-Theta1';
 z_2 = X * Theta1';
 a_2 = sigmoid(z_2);
 
